@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Melvin Hernalong Marpaung — Developer & Digital Product Builder</title>
+
+    <meta name="description" content="Portofolio Melvin Hernalong Marpaung — developer yang mengubah ide menjadi produk digital melalui UI/UX, frontend, backend, database, dan sistem informasi.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- MOBILE NAVIGATION -->
+    <button class="navtoggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span>
+    </button>
+
+    <div class="app">
+
+        <!-- =====================================================
+             SIDEBAR NAVIGATION
+        ====================================================== -->
+
+        <nav class="tabnav">
+
+            <div class="tabnav__brand">
+
+                <div class="tabnav__brand-mark">
+                    Melvin Hernalong Marpaung
+                </div>
+
+                <div class="tabnav__brand-role">
+                    Developer &amp; Digital Product Builder
+                </div>
+
+            </div>
+
+            <ul class="tabnav__list">
+
+                <li>
+                    <a class="tabnav__link is-active" href="index.html">
+                        Beranda
+                        <span class="tabnav__tag">01</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="tabnav__link" href="tentang.html">
+                        Tentang Saya
+                        <span class="tabnav__tag">02</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="tabnav__link" href="portofolio.html">
+                        Portofolio
+                        <span class="tabnav__tag">03</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="tabnav__link" href="pendidikan.html">
+                        Pendidikan
+                        <span class="tabnav__tag">04</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="tabnav__link" href="pengalaman.html">
+                        Pengalaman
+                        <span class="tabnav__tag">05</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="tabnav__link" href="blog.html">
+                        Blog
+                        <span class="tabnav__tag">06</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="tabnav__link" href="kontak.html">
+                        Kontak
+                        <span class="tabnav__tag">07</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="tabnav__foot">
+                Berbasis di
+                <span>Bandung, ID</span>
+            </div>
+
+        </nav>
+
+
+        <!-- =====================================================
+             MAIN CONTENT
+        ====================================================== -->
+
+        <main class="content">
+
+
+            <!-- =================================================
+                 HERO
+            ================================================== -->
+
+            <section class="hero hero--with-photo">
+
+                <!-- HERO CONTENT -->
+
+                <div class="hero__content">
+
+                    <div class="hero__top">
+
+                        <span class="eyebrow">
+                            Berkas 01 — Beranda
+                        </span>
+
+                        <span class="stamp stamp--gold">
+                            Terbuka untuk proyek baru
+                        </span>
+
+                    </div>
+
+
+                    <h1>
+                        Ide yang bagus jangan berhenti sebagai
+                        <em>ide.</em>
+                    </h1>
+
+
+                    <p class="hero__lede">
+                        Saya Melvin Hernalong Marpaung — developer yang senang mengubah ide menjadi sesuatu yang nyata. Dengan latar belakang Sistem Informasi, saya mengerjakan berbagai bagian dari sebuah produk digital, mulai dari UI/UX dan frontend hingga backend, database,
+                        dan sistem informasi.
+                    </p>
+
+
+                    <p class="hero__lede">
+                        <strong>
+                            Saya membangun bukan sekadar tampilan,
+                            tapi sistem yang bisa berjalan.
+                        </strong>
+                    </p>
+
+
+                    <div class="hero__cta">
+
+                        <a class="btn btn--primary" href="portofolio.html">
+                            Lihat yang Saya Bangun →
+                        </a>
+
+                        <a class="btn btn--ghost" href="kontak.html">
+                            Ajak Kolaborasi
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     FOTO PROFIL
+                ================================================== -->
+
+                <div class="hero__photo">
+
+                    <div class="hero__photo-frame" id="profile-photo" role="button" tabindex="0" aria-label="Tampilkan media sosial" aria-expanded="false">
+
+                        <!-- FOTO -->
+
+                        <img src="images/profile.jpeg" alt="Foto profil Melvin Hernalong Marpaung">
+
+
+                        <!-- SOCIAL OVERLAY -->
+
+                        <div class="hero__social-overlay">
+
+                            <div class="hero__social-title">
+                                <span>Temukan saya di</span>
+                            </div>
+
+
+                            <div class="hero__socials">
+
+                                <!-- WhatsApp -->
+
+                                <a href="https://wa.me/6289638688451" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M20.5 3.5A11.7 11.7 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.2 1.7 6L.2 24l6.3-1.7a11.8 11.8 0 0 0 5.6 1.4h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.2-3.5-8.4ZM12.1 21.7h-.1c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.7 9.7 0 0 1-1.5-5.2c0-5.4 4.4-9.8 9.9-9.8 2.6 0 5.1 1 7 2.9a9.8 9.8 0 0 1 2.9 7c0 5.3-4.4 9.7-9.9 9.7Zm5.4-7.3c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.8-1.6.1-.2.1-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6 0 1.5 1.1 3 1.2 3.2.1.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.7.8.6-.1 1.9-.8 2.1-1.6.3-.8.3-1.5.2-1.6-.1-.1-.3-.2-.6-.3Z"/>
+                                    </svg>
+
+                                </a>
+
+
+                                <!-- Instagram -->
+
+                                <a href="https://www.instagram.com/melvin_hernalon20" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                        <circle cx="12" cy="12" r="4"></circle>
+                                        <circle cx="17.5" cy="6.5" r="1"></circle>
+                                    </svg>
+
+                                </a>
+
+
+                                <!-- TikTok -->
+
+                                <a href="https://www.tiktok.com/@_vicariusfiliidei" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok">
+
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M16.7 3c.3 1.8 1.4 3.2 3.3 3.5v3.1c-1.4 0-2.6-.4-3.7-1.1v6.8c0 4-2.8 6.7-6.7 6.7-3.4 0-6-2.6-6-5.8 0-3.5 2.8-6.1 6.5-6.1.3 0 .6 0 .9.1v3.2a4.2 4.2 0 0 0-.9-.1c-1.5 0-2.7 1-2.7 2.5 0 1.3 1.1 2.3 2.4 2.3 1.7 0 2.8-1.1 2.8-3V3h4.1Z"></path>
+                                    </svg>
+
+                                </a>
+
+
+                                <!-- LinkedIn -->
+
+                                <a href="https://www.linkedin.com/in/melvin-marpaung-014b51303" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M5.2 3.2A2.2 2.2 0 1 1 5.2 7.6 2.2 2.2 0 0 1 5.2 3.2ZM3.4 9h3.6v11.6H3.4V9Zm5.8 0h3.5v1.6h.1c.5-.9 1.7-1.9 3.5-1.9 3.7 0 4.4 2.4 4.4 5.5v6.4h-3.6v-5.7c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1v5.8H9.2V9Z"></path>
+                                    </svg>
+
+                                </a>
+
+
+                                <!-- YouTube -->
+
+                                <a href="https://youtube.com/@melvinmarpaung2245" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"></path>
+                                    </svg>
+
+                                </a>
+
+
+                                <!-- Email -->
+
+                                <a href="mailto:hernalon20@gmail.com" class="social-icon" aria-label="Email" title="Email">
+
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13A2.5 2.5 0 0 1 19 21H5a2.5 2.5 0 0 1-2.5-2.5v-13ZM5 5.4v.4l7 5.2 7-5.2v-.4H5Zm14 3.5-7 5.2-7-5.2v9.6c0 .3.2.5.5.5h13c.3 0 .5-.2.5-.5V8.9Z"></path>
+                                    </svg>
+
+                                </a>
+
+                            </div>
+
+
+                            <span class="hero__social-hint">
+                                Klik foto untuk kembali
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FOTO LABEL -->
+
+                    <div class="hero__photo-label">
+
+                        <strong>
+                            Melvin Hernalong Marpaung
+                        </strong>
+
+                        <span>
+                            Developer &amp; Digital Product Builder
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     STATISTICS
+                ================================================== -->
+                <!-- 
+                <div class="hero__grid" data-reveal>
+
+                    <div class="hero__stat">
+
+                        <b>32+</b>
+
+                        <span>
+                            Proyek diselesaikan
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero__stat">
+
+                        <b>5</b>
+
+                        <span>
+                            Tahun pengalaman
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero__stat">
+
+                        <b>12</b>
+
+                        <span>
+                            Klien lintas industri
+                        </span>
+
+                    </div>
+
+                </div> -->
+
+            </section>
+
+
+            <!-- =================================================
+                 SERVICES
+            ================================================== -->
+
+            <section data-reveal>
+
+                <span class="eyebrow">
+                    Yang saya kerjakan
+                </span>
+
+                <h2 class="section-title">
+                    Dari ide sampai menjadi produk yang berjalan.
+                </h2>
+
+
+                <div class="grid grid--3">
+
+
+                    <!-- UI/UX -->
+
+                    <div class="card">
+
+                        <div class="card__body">
+
+                            <span class="eyebrow">
+                                01
+                            </span>
+
+                            <h3>
+                                UI/UX &amp; Product Design
+                            </h3>
+
+                            <p>
+                                Membantu menerjemahkan ide menjadi alur, wireframe, dan antarmuka yang mudah dipahami sebelum masuk ke tahap development.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FRONTEND -->
+
+                    <div class="card">
+
+                        <div class="card__body">
+
+                            <span class="eyebrow">
+                                02
+                            </span>
+
+                            <h3>
+                                Frontend Development
+                            </h3>
+
+                            <p>
+                                Mengubah desain menjadi website dan aplikasi yang responsif, interaktif, cepat, dan nyaman digunakan.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SYSTEM -->
+
+                    <div class="card">
+
+                        <div class="card__body">
+
+                            <span class="eyebrow">
+                                03
+                            </span>
+
+                            <h3>
+                                Backend &amp; Sistem Informasi
+                            </h3>
+
+                            <p>
+                                Membangun bagian belakang produk, database, serta sistem yang membuat sebuah aplikasi tidak hanya terlihat bagus, tetapi benar-benar dapat digunakan.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 VALUE / POSITIONING
+            ================================================== -->
+
+            <section data-reveal>
+
+                <span class="eyebrow">
+                    Cara saya bekerja
+                </span>
+
+                <h2 class="section-title">
+                    Saya tidak memisahkan desain dari teknologi.
+                </h2>
+
+
+                <div class="grid grid--2">
+
+                    <div class="card">
+
+                        <div class="card__body">
+
+                            <h3>
+                                Memahami masalahnya dulu.
+                            </h3>
+
+                            <p>
+                                Sebelum menulis kode atau membuat tampilan, saya mencoba memahami kebutuhan pengguna, tujuan bisnis, dan masalah yang sebenarnya ingin diselesaikan.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card">
+
+                        <div class="card__body">
+
+                            <h3>
+                                Lalu membuatnya benar-benar berjalan.
+                            </h3>
+
+                            <p>
+                                Karena saya juga mengerjakan development, desain yang dibuat dapat dipikirkan sejak awal dengan mempertimbangkan teknologi, struktur sistem, dan kemungkinan implementasinya.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 BLOG
+            ================================================== -->
+
+            <section data-reveal>
+
+                <span class="eyebrow">
+                    Dari blog
+                </span>
+
+                <h2 class="section-title">
+                    Catatan proses &amp; hal yang saya pelajari.
+                </h2>
+
+
+                <div class="grid grid--2">
+
+
+                    <a class="card" href="blog.html">
+
+                        <div class="card__media">
+
+                            <span>
+                                Proses
+                            </span>
+
+                        </div>
+
+
+                        <div class="card__body">
+
+                            <h3>
+                                Mengapa wireframe kertas masih relevan di 2026
+                            </h3>
+
+                            <p>
+                                Tentang cara sederhana memikirkan sebuah interface sebelum terlalu cepat masuk ke software desain.
+                            </p>
+
+                            <div class="card__link">
+
+                                <span>
+                                    Baca tulisan
+                                </span>
+
+                                <span>
+                                    →
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+
+                    <a class="card" href="blog.html">
+
+                        <div class="card__media">
+
+                            <span>
+                                Studi Kasus
+                            </span>
+
+                        </div>
+
+
+                        <div class="card__body">
+
+                            <h3>
+                                Merapikan alur onboarding yang membuat pengguna berhenti
+                            </h3>
+
+                            <p>
+                                Catatan tentang bagaimana memperbaiki alur produk dengan melihat masalah dari sisi pengguna, bukan sekadar tampilan.
+                            </p>
+
+                            <div class="card__link">
+
+                                <span>
+                                    Baca tulisan
+                                </span>
+
+                                <span>
+                                    →
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 FINAL CTA
+            ================================================== -->
+
+            <section data-reveal>
+
+                <div class="card">
+
+                    <div class="card__body">
+
+                        <span class="eyebrow">
+                            Punya ide?
+                        </span>
+
+                        <h2>
+                            Mari buat sesuatu yang benar-benar bisa dipakai.
+                        </h2>
+
+                        <p>
+                            Kalau kamu punya ide, masalah yang ingin diselesaikan, atau produk yang sedang dibangun, saya terbuka untuk berdiskusi.
+                        </p>
+
+                        <a class="btn btn--primary" href="kontak.html">
+                            Mulai Percakapan →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 FOOTER
+            ================================================== -->
+
+            <footer class="site-footer">
+
+                <span>
+                    © 2026 Melvin Hernalong Marpaung.
+                </span>
+
+                <a href="#">
+                    Kembali ke atas ↑
+                </a>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
